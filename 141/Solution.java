@@ -39,5 +39,6 @@ public class Solution {
 
 time: O(N)
 space: O(1)
-
+can also be used to find the start of the loop, to do this, once a both pointers overlap, reset turtle to head of the linked list and then increment both hare and turtle by one until they meet. 
+The point they meet is the start of the loop.
 */
